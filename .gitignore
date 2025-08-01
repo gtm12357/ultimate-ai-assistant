@@ -1,0 +1,50 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+.env/
+env/
+venv/
+
+# Jupyter and IPython
+.ipynb_checkpoints/
+*.ipynb
+
+# Editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Test, coverage, and logs
+.coverage
+coverage.xml
+htmlcov/
+.cache/
+*.log
+
+# OS-specific
+*.bak
+*.tmp
+
+# Packaging
+dist/
+build/
+*.egg-info/
+
+# pyenv or uv
+.python-version
+
+# uv-specific (safe, but optional)
+uv.lock
+
+# Streamlit
+.streamlit/config.toml
+.streamlit/*.json
