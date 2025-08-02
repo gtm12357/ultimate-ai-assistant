@@ -48,3 +48,10 @@ uv.lock
 # Streamlit
 .streamlit/config.toml
 .streamlit/*.json
+
+# Always ignore any .env file in any folder
+.env
+.env.*
+
+# But keep the template in version control
+!*.env.example
